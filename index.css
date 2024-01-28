@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(./imige/hero.jpg);
+    background-size: cover;
+    height: 97vh;
+    width: 96vw;
+
+
+}
+.list-button{
+    display: flex;
+    justify-content: center;
+     /* flex-direction: column;  */
+    
+     height: 30vw;
+     align-items: center;
+
+}
+
+.list-btn{
+    display: flex;
+    justify-content:space-between;
+}
+.twobtn{
+
+    width:150px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+@media(min-width: 0px) and (max-width: 380px){
+    .twobtn{
+
+        width:115px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .btn2{
+        width: 45px;
+        padding: 0px;
+    }
+    .btn3{
+        width: 63px;
+        padding: 0px;
+    }
+    .mar{
+        margin-top: 40px;
+    }
+}
